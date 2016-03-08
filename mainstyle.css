@@ -1,0 +1,130 @@
+/* Copyright (C) 2016 Stephan Kreutzer
+ *
+ * This file is part of refugee-it.de.
+ *
+ * refugee-it.de is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License version 3 or any later version,
+ * as published by the Free Software Foundation.
+ *
+ * refugee-it.de is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License 3 for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License 3
+ * along with refugee-it.de. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+body
+{
+    font-family: sans-serif;
+    background-color: #FFE9C5;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation
+{
+    float: left;
+    width: 100%;
+    background-color: #FFE9C5;
+}
+
+#navigation_rtl
+{
+    float: right;
+    width: 100%;
+    background-color: #FFE9C5;
+}
+
+.languageselector
+{
+    float: right;
+    margin: 0.25em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #FFFFFF;
+}
+
+.languageselector_rtl
+{
+    float: left;
+    margin: 0.25em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #FFFFFF;
+}
+
+.languageselector_text
+{
+    color: #000000;
+}
+
+fieldset
+{
+    border: 0px;
+}
+
+.topic
+{
+    float: left;
+    padding-top: 0.25em;
+    padding-right: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 0.25em;
+    background-color: #FFFFFF;
+}
+
+.topic_rtl
+{
+    float: right;
+    padding-top: 0.25em;
+    padding-right: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 0.25em;
+    background-color: #FFFFFF;
+}
+
+.topiclink
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content
+{
+    clear: left;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    background-color: #FFFFFF;
+}
+
+#content_rtl
+{
+    direction:rtl;
+    clear: right;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    background-color: #FFFFFF;
+}
+
+.success
+{
+    color: green;
+}
+
+.error
+{
+    color: red;
+}
+
