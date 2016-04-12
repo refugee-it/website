@@ -20,6 +20,7 @@
 
 define("LANG_NAVIGATION_START", "Start");
 define("LANG_NAVIGATION_INFO", "Info");
+define("LANG_NAVIGATION_LOCAL", "Local");
 define("LANG_NAVIGATION_REQUESTS", "Requests");
 define("LANG_NAVIGATION_IMPRESSUM", "Impressum");
 

@@ -18,11 +18,9 @@
 
 
 
-define("LANG_NAVIGATION_START", "Start");
-define("LANG_NAVIGATION_INFO", "Info");
-define("LANG_NAVIGATION_LOCAL", "Local");
-define("LANG_NAVIGATION_REQUESTS", "Requests");
-define("LANG_NAVIGATION_IMPRESSUM", "Impressum");
+define("LANG_PAGETITLE", "Local");
+define("LANG_HEADER", "Local");
+define("LANG_ABOUT", "There are activities and resources local to a certain city or area:");
 
 
 

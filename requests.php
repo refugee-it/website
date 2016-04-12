@@ -16,6 +16,13 @@
  * along with refugee-it.de. If not, see <http://www.gnu.org/licenses/>.
  */
 
+if (empty($_SESSION) === true)
+{
+    @session_start();
+}
+
+$_SESSION['page'] = "requests";
+
 require_once(dirname(__FILE__)."/config.inc.php");
 require_once(dirname(__FILE__)."/libraries/languagelib.inc.php");
 require_once(getLanguageFile("requests"));
@@ -55,13 +62,20 @@ echo "<div>\n".
 
 if (CONFIG_WEBMASTER_EMAIL !== "somebody@exampe.org")
 {
+    $pretext = "";
+    
+    if (isset($_GET['pretext']) === true)
+    {
+        $pretext = htmlspecialchars($_GET['pretext'], ENT_COMPAT | ENT_HTML401, "UTF-8");
+    }
+    
     echo "  <p>\n".
          "    ".LANG_DESCRIPTION."\n".
          "  </p>\n".
          "  <script type=\"text/javascript\" src=\"./contact.js\"></script>\n".
          "  <form action=\"\" method=\"post\">\n".
          "    <fieldset id=\"form\">\n".
-         "      <textarea id=\"message\" cols=\"80\" rows=\"24\"></textarea><br/>\n".
+         "      <textarea id=\"message\" cols=\"80\" rows=\"24\">".$pretext."</textarea><br/>\n".
          "      <input id=\"e_mail\" type=\"text\" size=\"40\" maxlength=\"80\"/> ".LANG_EMAILADDRESS."<br/>\n".
          "      <input id=\"send\" type=\"button\" value=\"".LANG_SEND."\" onclick=\"request();\"/><br/>\n".
          "    </fieldset>\n".

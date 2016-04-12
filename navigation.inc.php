@@ -16,30 +16,41 @@
  * along with refugee-it.de. If not, see <http://www.gnu.org/licenses/>.
  */
 
-function GetNavigation()
+function GetNavigation($basedir = ".")
 {
-    require_once("./libraries/languagelib.inc.php");
-    require_once(getLanguageFile("navigation"));
+    require_once(dirname(__FILE__)."/libraries/languagelib.inc.php");
+    require_once(getLanguageFile("navigation", dirname(__FILE__)));
 
     $direction = getCurrentLanguageDirection();
 
     if ($direction === LanguageDefinition::DirectionRTL)
     {
-        $navigation = "<div id=\"navigation_rtl\">\n".
-                      "  <div class=\"topic_rtl\"><a class=\"topiclink\" href=\"index.php\">".LANG_NAVIGATION_START."</a></div>\n".
-                      "  <div class=\"topic_rtl\"><a class=\"topiclink\" href=\"info.php\">".LANG_NAVIGATION_INFO."</a></div>\n".
-                      "  <div class=\"topic_rtl\"><a class=\"topiclink\" href=\"requests.php\">".LANG_NAVIGATION_REQUESTS."</a></div>\n".
-                      "  <div class=\"topic_rtl\"><a class=\"topiclink\" href=\"impressum.php\">".LANG_NAVIGATION_IMPRESSUM."</a></div>\n".
-                      "</div>\n";
+        $direction = "_rtl";
     }
     else
     {
-        $navigation = "<div id=\"navigation\">\n".
-                      "  <div class=\"topic\"><a class=\"topiclink\" href=\"index.php\">".LANG_NAVIGATION_START."</a></div>\n".
-                      "  <div class=\"topic\"><a class=\"topiclink\" href=\"info.php\">".LANG_NAVIGATION_INFO."</a></div>\n".
-                      "  <div class=\"topic\"><a class=\"topiclink\" href=\"requests.php\">".LANG_NAVIGATION_REQUESTS."</a></div>\n".
-                      "  <div class=\"topic\"><a class=\"topiclink\" href=\"impressum.php\">".LANG_NAVIGATION_IMPRESSUM."</a></div>\n".
-                      "</div>\n";
+        $direction = "";
+    }
+
+    $navigation = "<div id=\"navigation".$direction."\">\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/index.php\">".LANG_NAVIGATION_START."</a></div>\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/info.php\">".LANG_NAVIGATION_INFO."</a></div>\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local.php\">".LANG_NAVIGATION_LOCAL."</a></div>\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/requests.php\">".LANG_NAVIGATION_REQUESTS."</a></div>\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/impressum.php\">".LANG_NAVIGATION_IMPRESSUM."</a></div>\n".
+                  "</div>\n";
+
+    if (isset($_SESSION['page']) === true)
+    {
+        switch ($_SESSION['page'])
+        {
+        case "local":
+        case "local_74321_bietigheimbissingen":
+            $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
+                           "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/index.php\">Bietigheim-Bissingen</a></div>\n".
+                           "</div>\n";
+            break;
+        }
     }
 
     return $navigation;

@@ -16,6 +16,13 @@
  * along with refugee-it.de. If not, see <http://www.gnu.org/licenses/>.
  */
 
+if (empty($_SESSION) === true)
+{
+    @session_start();
+}
+
+$_SESSION['page'] = "impressum";
+
 require_once("./libraries/languagelib.inc.php");
 require_once(getLanguageFile("impressum"));
 

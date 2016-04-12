@@ -28,6 +28,7 @@ body
     float: left;
     width: 100%;
     background-color: #FFE9C5;
+    border-bottom: 0.1em solid black;
 }
 
 #navigation_rtl
@@ -35,6 +36,19 @@ body
     float: right;
     width: 100%;
     background-color: #FFE9C5;
+}
+
+#subnavigation1
+{
+    float: left;
+    width: 100%;
+    background-color: #FFE9C5;
+}
+
+#subnavigation1_rtl
+{
+    float: right;
+    width: 100%;
 }
 
 .languageselector
@@ -118,6 +132,28 @@ fieldset
     background-color: #FFFFFF;
 }
 
+.image_floatleft
+{
+    float: left;
+    padding: 0px 15px 10px 0px;
+}
+
+.image_floatleft_end
+{
+    clear: left;
+}
+
+.image_floatleft_rtl
+{
+    float: right;
+    padding: 0px 0px 10px 15px;
+}
+
+.image_floatleft_end_rtl
+{
+    clear: right;
+}
+
 .success
 {
     color: green;
@@ -128,3 +164,12 @@ fieldset
     color: red;
 }
 
+.available
+{
+    color: green;
+}
+
+.not_available
+{
+    color: red;
+}

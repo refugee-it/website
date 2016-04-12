@@ -18,8 +18,8 @@
 
 
 
-define("LANG_PAGETITLE", "Informationsmaterial");
-define("LANG_HEADER", "Informationsmaterial");
+define("LANG_PAGETITLE", "Informations-Ressourcen");
+define("LANG_HEADER", "Informations-Ressourcen");
 define("LANG_TABLE_HEADER_NAME", "Name");
 define("LANG_TABLE_HEADER_DESCRIPTION", "Beschreibung");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME", "Deutsches Bildungssystem (vereinfacht)");

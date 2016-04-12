@@ -21,10 +21,10 @@ if (empty($_SESSION) === true)
     @session_start();
 }
 
-$_SESSION['page'] = "info";
+$_SESSION['page'] = "local";
 
 require_once(dirname(__FILE__)."/libraries/languagelib.inc.php");
-require_once(getLanguageFile("info"));
+require_once(getLanguageFile("local"));
 
 $direction = getCurrentLanguageDirection();
 
@@ -38,13 +38,6 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
      "        <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"/>\n".
      "        <meta http-equiv=\"expires\" content=\"1296000\"/>\n".
      "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
-     "        <style type=\"text/css\">\n".
-     "          .table_bordered\n".
-     "          {\n".
-     "              border: 1px solid black;\n".
-     "              border-collapse: collapse;\n".
-     "          }\n".
-     "        </style>\n".
      "    </head>\n".
      "    <body>\n";
 
@@ -66,22 +59,12 @@ else
 echo "<div>\n".
      "  <h1>".LANG_HEADER."</h1>\n".
      "  <div>\n".
-     "    <table class=\"table_bordered\">\n".
-     "      <tr>\n".
-     "        <th class=\"table_bordered\">".LANG_TABLE_HEADER_NAME."</th>\n".
-     "        <th class=\"table_bordered\">de</th>\n".
-     "        <th class=\"table_bordered\">ar</th>\n".
-     "        <th class=\"table_bordered\">en</th>\n".
-     "        <th class=\"table_bordered\">".LANG_TABLE_HEADER_DESCRIPTION."</th>\n".
-     "      </tr>\n".
-     "      <tr>\n".
-     "        <td class=\"table_bordered\">".LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME."</td>\n".
-     "        <td class=\"table_bordered\"><a href=\"./info/german_education_system_simplyfied_de.pdf\">pdf</a>, <a href=\"./info/german_education_system_simplyfied_de.dia\">dia</a></td>\n".
-     "        <td class=\"table_bordered\"></td>\n".
-     "        <td class=\"table_bordered\"><a href=\"./info/german_education_system_simplyfied_en.pdf\">pdf</a>, <a href=\"./info/german_education_system_simplyfied_en.dia\">dia</a></td>\n".
-     "        <td class=\"table_bordered\">".LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_DESCRIPTION."</td>\n".
-     "      </tr>\n".
-     "    </table>\n".
+     "    <p>\n".
+     "      ".LANG_ABOUT."\n".
+     "    </p>\n".
+     "    <ul>\n".
+     "      <li><a href=\"local/74321_bietigheimbissingen/index.php\">74321 Bietigheim-Bissingen</a></li>\n".
+     "    </ul>\n".
      "  </div>\n".
      "</div>\n";
 

@@ -18,8 +18,8 @@
 
 
 
-define("LANG_PAGETITLE", "Informational Material");
-define("LANG_HEADER", "Informational Material");
+define("LANG_PAGETITLE", "Informational Resources");
+define("LANG_HEADER", "Informational Resources");
 define("LANG_TABLE_HEADER_NAME", "Name");
 define("LANG_TABLE_HEADER_DESCRIPTION", "Description");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME", "German Education System (simplified)");

@@ -30,7 +30,7 @@ if (isset($_POST['e_mail']) != true &&
 
 $success = false;
 $message = "Time: ".date("c")."\n";
-$message .= "Type: refugee-it.de request\n";
+$message .= "Type: refugee-it.de contact\n";
 
 if (isset($_POST['e_mail']) === true)
 {

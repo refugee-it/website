@@ -21,6 +21,8 @@ if (empty($_SESSION) === true)
     @session_start();
 }
 
+$_SESSION['page'] = "index";
+
 require_once("./libraries/languagelib.inc.php");
 require_once(getLanguageFile("index"));
 
