@@ -36,6 +36,7 @@ function GetNavigation($basedir = ".")
                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/index.php\">".LANG_NAVIGATION_START."</a></div>\n".
                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/info.php\">".LANG_NAVIGATION_INFO."</a></div>\n".
                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local.php\">".LANG_NAVIGATION_LOCAL."</a></div>\n".
+                  "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/downloads.php\">".LANG_NAVIGATION_DOWNLOADS."</a></div>\n".
                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/requests.php\">".LANG_NAVIGATION_REQUESTS."</a></div>\n".
                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/impressum.php\">".LANG_NAVIGATION_IMPRESSUM."</a></div>\n".
                   "</div>\n";
