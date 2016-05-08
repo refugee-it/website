@@ -65,7 +65,7 @@ echo "<div>\n".
      "    </p>\n".
      "    <ul>\n".
      "      <li>\n".
-     "        Commit 1: <a href=\"https://github.com/refugee-it/clients/releases/tag/2016-04-19\">langsam_gesprochene_nachrichten_downloader_1</a> (md5sum <code>4ee712b84ea400fafecf1eea26bf9989</code>)\n".
+     "        Commit 1: <a href=\"https://github.com/refugee-it/clients/releases/download/2016-04-19/clients-1.zip\">langsam_gesprochene_nachrichten_downloader_1</a> (md5sum <code>4ee712b84ea400fafecf1eea26bf9989</code>)\n".
      "      </li>\n".
      "    </ul>\n".
      "  </div>\n".
