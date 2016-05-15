@@ -73,6 +73,35 @@ echo "<div>\n".
      "    <div>\n".
      "      <h3><a name=\"section_notebooks\"/>".LANG_SECTION_NOTEBOOKS."</h3>\n".
      "      <div>\n".
+     "        <h4>Notebook 16</h4>\n".
+     "        <a href=\"notebook_16.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_16_thumbnail.png\" width=\"174px\" height=\"200px\" alt=\"Notebook 16\" title=\"Notebook 16\"/></a>\n".
+     "        <p>\n".
+     "          <span class=\"available\">".LANG_STATUS_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_16."\n".
+     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_16\">".LANG_REQUEST_NOW."</a>\n".
+     "        </p>\n".
+     "        <div class=\"image_floatleft_end".$direction."\"/>\n".
+     "      </div>\n".
+     /*
+     "      <div>\n".
+     "        <h4>Notebook 15</h4>\n".
+     "        <a href=\"notebook_15.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_15_thumbnail.png\" width=\"183px\" height=\"200px\" alt=\"Notebook 15\" title=\"Notebook 15\"/></a>\n".
+     "        <p>\n".
+     "          <span class=\"available\">".LANG_STATUS_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_15."\n".
+     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_15\">".LANG_REQUEST_NOW."</a>\n".
+     "        </p>\n".
+     "        <div class=\"image_floatleft_end".$direction."\"/>\n".
+     "      </div>\n".
+     */
+     "      <div>\n".
+     "        <h4>Notebook 14</h4>\n".
+     "        <a href=\"notebook_14.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_14_thumbnail.png\" width=\"161px\" height=\"200px\" alt=\"Notebook 14\" title=\"Notebook 14\"/></a>\n".
+     "        <p>\n".
+     "          <span class=\"available\">".LANG_STATUS_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_14."\n".
+     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_14\">".LANG_REQUEST_NOW."</a>\n".
+     "        </p>\n".
+     "        <div class=\"image_floatleft_end".$direction."\"/>\n".
+     "      </div>\n".
+     "      <div>\n".
      "        <h4>Notebook 13</h4>\n".
      "        <a href=\"notebook_13.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_13_thumbnail.png\" width=\"173px\" height=\"200px\" alt=\"Notebook 13\" title=\"Notebook 13\"/></a>\n".
      "        <p>\n".
@@ -103,8 +132,8 @@ echo "<div>\n".
      "        <h4>Notebook 3</h4>\n".
      "        <a href=\"notebook_3.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_3_thumbnail.png\" width=\"183px\" height=\"200px\" alt=\"Notebook 3\" title=\"Notebook 3\"/></a>\n".
      "        <p>\n".
-     "          <span class=\"available\">".LANG_STATUS_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_3."\n".
-     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_3\">".LANG_REQUEST_NOW."</a>\n".
+     "          <span class=\"not_available\">".LANG_STATUS_NOT_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_3."\n".
+     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_3\">".LANG_REQUEST_SIMILAR."</a>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
