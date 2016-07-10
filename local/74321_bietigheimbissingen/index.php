@@ -96,8 +96,8 @@ echo "<div>\n".
      "        <h4>Notebook 14</h4>\n".
      "        <a href=\"notebook_14.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_14_thumbnail.png\" width=\"161px\" height=\"200px\" alt=\"Notebook 14\" title=\"Notebook 14\"/></a>\n".
      "        <p>\n".
-     "          <span class=\"available\">".LANG_STATUS_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_14."\n".
-     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_14\">".LANG_REQUEST_NOW."</a>\n".
+     "          <span class=\"not_available\">".LANG_STATUS_NOT_AVAILABLE."</span>".LANG_DESCRIPTION_NOTEBOOK_14."\n".
+     "          <a href=\"../../requests.php?pretext=".LANG_PRETEXT.$_SESSION['page']."_request_notebook_14\">".LANG_REQUEST_SIMILAR."</a>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
@@ -119,6 +119,7 @@ echo "<div>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
+     /*
      "      <div>\n".
      "        <h4>Notebook 4</h4>\n".
      "        <a href=\"notebook_4.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_4_thumbnail.png\" width=\"208px\" height=\"200px\" alt=\"Notebook 4\" title=\"Notebook 4\"/></a>\n".
@@ -137,7 +138,6 @@ echo "<div>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
-     /*
      "      <div>\n".
      "        <h4>Notebook 2</h4>\n".
      "        <a href=\"notebook_2.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_2_thumbnail.png\" width=\"200px\" height=\"200px\" alt=\"Notebook 2\" title=\"Notebook 2\"/></a>\n".
@@ -147,7 +147,6 @@ echo "<div>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
-     */
      "      <div>\n".
      "        <h4>Notebook 1</h4>\n".
      "        <a href=\"notebook_1.png\" class=\"image_floatleft".$direction."\"><img src=\"notebook_1_thumbnail.png\" width=\"239px\" height=\"200px\" alt=\"Notebook 1\" title=\"Notebook 1\"/></a>\n".
@@ -157,6 +156,7 @@ echo "<div>\n".
      "        </p>\n".
      "        <div class=\"image_floatleft_end".$direction."\"/>\n".
      "      </div>\n".
+     */
      "    </div>\n".
      "    <div>\n".
      "      <h3><a name=\"section_pcs\"/>".LANG_SECTION_PCS."</h3>\n".

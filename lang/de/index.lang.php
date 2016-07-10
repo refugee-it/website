@@ -20,9 +20,7 @@
 
 define("LANG_PAGETITLE", "refugee-it.de");
 define("LANG_ABOUT_HEADER", "IT für Flüchtlinge");
-define("LANG_ABOUT_TEXT", "Bitte helfen Sie mit, diese Seite in die Sprache Arabisch zu übersetzen! Die englische Übersetzung braucht ebenfalls Verbesserung. Einfach via ");
-define("LANG_LINK_FORM", "Formular");
-define("LANG_ABOUT_POSTTEXT", " melden.");
+define("LANG_ABOUT_TEXT", "Computer/Notebooks, Lernmaterialien und IT für Flüchtlinge.");
 define("LANG_SOURCE_ON", "Quelltext dieser Website auf ");
 define("LANG_SOURCE_POST", ".");
 

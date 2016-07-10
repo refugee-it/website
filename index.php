@@ -60,7 +60,7 @@ echo getHTMLLanguageSelector("index.php");
 echo "          <div>\n".
      "            <h1>".LANG_ABOUT_HEADER."</h1>\n".
      "            <p>\n".
-     "              ".LANG_ABOUT_TEXT."<a href=\"requests.php\">".LANG_LINK_FORM."</a>".LANG_ABOUT_POSTTEXT."\n".
+     "              ".LANG_ABOUT_TEXT."\n".
      "            </p>\n".
      "          </div>\n".
      "          <div>\n".
