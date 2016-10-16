@@ -22,6 +22,7 @@ if (empty($_SESSION) === true)
 }
 
 $_SESSION['page'] = "requests";
+unset($_SESSION['subpage']);
 
 require_once(dirname(__FILE__)."/config.inc.php");
 require_once(dirname(__FILE__)."/libraries/languagelib.inc.php");

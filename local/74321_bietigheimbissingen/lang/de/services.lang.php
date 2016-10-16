@@ -18,8 +18,8 @@
 
 
 
-define("LANG_LANGUAGESELECTOR_DESCRIPTION", "Select a language: ");
-define("LANG_LANGUAGESELECTOR_SUBMITBUTTON", "Apply");
+define("LANG_PAGETITLE", "Services");
+define("LANG_HEADER", "Services");
 
 
 

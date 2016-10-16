@@ -46,10 +46,39 @@ function GetNavigation($basedir = ".")
         switch ($_SESSION['page'])
         {
         case "local":
+            $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
+                           "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/index.php\">Bietigheim-Bissingen</a></div>\n".
+                           "</div>\n";
+            break;
         case "local_74321_bietigheimbissingen":
             $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
                            "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/index.php\">Bietigheim-Bissingen</a></div>\n".
                            "</div>\n";
+
+            if (isset($_SESSION['subpage']) != true)
+            {
+                $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
+                               "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/computers.php\">".LANG_NAVIGATION_LOCAL_COMPUTERS."</a></div>\n".
+                               "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/services.php\">".LANG_NAVIGATION_LOCAL_SERVICES."</a></div>\n".
+                               "</div>\n";
+            }
+            else
+            {
+                switch ($_SESSION['subpage'])
+                {
+                case "computers":
+                    $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
+                                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/computers.php\">".LANG_NAVIGATION_LOCAL_COMPUTERS."</a></div>\n".
+                                   "</div>\n";
+                    break;
+                case "services":
+                    $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
+                                   "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/services.php\">".LANG_NAVIGATION_LOCAL_SERVICES."</a></div>\n".
+                                   "</div>\n";
+                    break;
+                }
+            }
+
             break;
         }
     }

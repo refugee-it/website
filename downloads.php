@@ -22,6 +22,7 @@ if (empty($_SESSION) === true)
 }
 
 $_SESSION['page'] = "downloads";
+unset($_SESSION['subpage']);
 
 require_once(dirname(__FILE__)."/libraries/languagelib.inc.php");
 require_once(getLanguageFile("downloads"));
@@ -66,6 +67,17 @@ echo "<div>\n".
      "    <ul>\n".
      "      <li>\n".
      "        Commit 1: <a href=\"https://github.com/refugee-it/clients/releases/download/2016-04-19/clients-1.zip\">langsam_gesprochene_nachrichten_downloader_1</a> (md5sum <code>4ee712b84ea400fafecf1eea26bf9989</code>)\n".
+     "      </li>\n".
+     "    </ul>\n".
+     "  </div>\n".
+     "  <div>\n".
+     "    <h2>".LANG_HEADER_SCHREIBUEBUNGSBLAETTER."</h2>\n".
+     "    <p>\n".
+     "      ".LANG_DESCRIPTION_SCHREIBUEBUNGSBLAETTER."\n".
+     "    </p>\n".
+     "    <ul>\n".
+     "      <li>\n".
+     "        Commit 2: <a href=\"https://github.com/refugee-it/schreibuebungsblaetter/releases/download/2016-10-03/schreibuebungsblaetter-2.zip\">schreibuebungsblaetter-2.zip</a> (".LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE." MB)\n".
      "      </li>\n".
      "    </ul>\n".
      "  </div>\n".

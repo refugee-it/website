@@ -28,7 +28,6 @@ body
     float: left;
     width: 100%;
     background-color: #FFE9C5;
-    border-bottom: 0.1em solid black;
 }
 
 #navigation_rtl
@@ -43,12 +42,14 @@ body
     float: left;
     width: 100%;
     background-color: #FFE9C5;
+    border-top: 0.1em solid black;
 }
 
 #subnavigation1_rtl
 {
     float: right;
     width: 100%;
+    border-top: 0.1em solid black;
 }
 
 .languageselector

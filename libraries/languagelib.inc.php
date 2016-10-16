@@ -157,7 +157,6 @@ function getLanguageFile($caller, $baseDirectory = ".")
 function getLanguageList()
 {
     return array("de" => new LanguageDefinition("de", "Deutsch", LanguageDefinition::DirectionLTR),
-                 "ar" => new LanguageDefinition("ar", "العربية", LanguageDefinition::DirectionRTL),
                  "en" => new LanguageDefinition("en", "English", LanguageDefinition::DirectionLTR));
 }
 

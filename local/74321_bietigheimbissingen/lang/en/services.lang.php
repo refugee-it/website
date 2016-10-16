@@ -18,12 +18,8 @@
 
 
 
-define("LANG_PAGETITLE", "Informational Resources");
-define("LANG_HEADER", "Informational Resources");
-define("LANG_TABLE_HEADER_NAME", "Name");
-define("LANG_TABLE_HEADER_DESCRIPTION", "Description");
-define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME", "German Education System (simplified)");
-define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_DESCRIPTION", "Simplified description of the German education system, as most German pupils encounter it. Should help to get an impression regarding which route refugees might take.");
+define("LANG_PAGETITLE", "Services");
+define("LANG_HEADER", "Services");
 
 
 

@@ -22,6 +22,9 @@ define("LANG_PAGETITLE", "Downloads");
 define("LANG_HEADER", "Downloads");
 define("LANG_HEADER_LANGSAM_GESPROCHENE_NACHRICHTEN", "Langsam Gesprochene Nachrichten der Deutschen Welle");
 define("LANG_DESCRIPTION_LANGSAM_GESPROCHENE_NACHRICHTEN", "Die „%sLangsam Gesprochenen Nachrichten%s“ des staatlichen Radiosenders für das Ausland „%sDeutsche Welle%s“ hat eine tägliche Nachrichtensendung, die langsam gesprochen wird. Dazu gibt es den korrespondierenden Text zum mitlesen. Mit dem folgenden Programm können Text und Audio-Aufzeichnung dieser Sendung heruntergeladen werden. Java muss installiert sein. Sie müssen das Zip-Archiv entpacken und unter unixähnlichen Betriebssystemen wie GNU/Linux das Script %s$/langsam_gesprochene_nachrichten_1_gnu.sh%s ausführen, dann erscheint ein neues Verzeichnis „%slangsam_gesprochene_nachrichten%s“ mit dem Ergebnis.");
+define("LANG_HEADER_SCHREIBUEBUNGSBLAETTER", "Schreibübungsblätter");
+define("LANG_DESCRIPTION_SCHREIBUEBUNGSBLAETTER", "Schreibübungsblätter für das deutsche Alphabet.");
+define("LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE", "8,9");
 
 
 
