@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -25,6 +25,8 @@ define("LANG_DESCRIPTION_LANGSAM_GESPROCHENE_NACHRICHTEN", "The “%sLangsam Ges
 define("LANG_HEADER_SCHREIBUEBUNGSBLAETTER", "Training Pages for Writing");
 define("LANG_DESCRIPTION_SCHREIBUEBUNGSBLAETTER", "Training pages for writing the German alphabet.");
 define("LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE", "8.9");
+define("LANG_HEADER_NOTESYSTEM", "Note Management System");
+define("LANG_DESCRIPTION_NOTESYSTEM", "With the online note management system, one can compose notes about persons and attach documents to them, so volunteers can organize their help for people in a refugee camp or data of course attendees. Also, there’s a slightly outdated <a href=\"https://vimeo.com/201595517\">demo video</a> (in German language) about the system.");
 
 
 

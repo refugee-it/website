@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -19,8 +19,8 @@
 
 
 define("LANG_PAGETITLE", "refugee-it.de");
-define("LANG_ABOUT_HEADER", "IT for refugees");
-define("LANG_ABOUT_TEXT", "Computer/notebooks, learning resources and IT for refugees.");
+define("LANG_ABOUT_HEADER", "IT for Refugees");
+define("LANG_ABOUT_TEXT", "Computer/notebooks, learning resources and IT for refugees and volunteers.");
 define("LANG_SOURCE_ON", "Source code of this website on ");
 define("LANG_SOURCE_POST", ".");
 

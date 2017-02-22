@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -24,6 +24,8 @@ define("LANG_TABLE_HEADER_NAME", "Name");
 define("LANG_TABLE_HEADER_DESCRIPTION", "Beschreibung");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME", "Deutsches Bildungssystem (vereinfacht)");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_DESCRIPTION", "Vereinfachte Beschreibung des deutschen Bildungssystems, wie es den meisten deutschen Schülern begegnet. Sollte helfen, einen Eindruck davon zu bekommen, welchen Weg Flüchtlinge nehmen könnten.");
+define("LANG_TABLE_INTEGRATION_COURSE_NAME", "Information/Bewerbung Integrationskurs");
+define("LANG_TABLE_INTEGRATION_COURSE_DESCRIPTION", "Dokumente zum Integrationskurs vom Bundesamt für Migration und Flüchtlinge für Geflüchtete aus Iran, Irak, Syrien, Eritrea und Somalia.");
 
 
 

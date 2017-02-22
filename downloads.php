@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -60,13 +60,13 @@ else
 echo "<div>\n".
      "  <h1>".LANG_HEADER."</h1>\n".
      "  <div>\n".
-     "    <h2>".LANG_HEADER_LANGSAM_GESPROCHENE_NACHRICHTEN."</h2>\n".
+     "    <h2>".LANG_HEADER_NOTESYSTEM."</h2>\n".
      "    <p>\n".
-     "      ".sprintf(LANG_DESCRIPTION_LANGSAM_GESPROCHENE_NACHRICHTEN, "<a href=\"http://www.dw.com/de/deutsch-lernen/nachrichten/s-8030\">", "</a>", "<a href=\"http://www.dw.com\">", "</a>", "<code>", "</code>", "<code>", "</code>")."\n".
+     "      ".LANG_DESCRIPTION_NOTESYSTEM."\n".
      "    </p>\n".
      "    <ul>\n".
      "      <li>\n".
-     "        Commit 1: <a href=\"https://github.com/refugee-it/clients/releases/download/2016-04-19/clients-1.zip\">langsam_gesprochene_nachrichten_downloader_1</a> (md5sum <code>4ee712b84ea400fafecf1eea26bf9989</code>)\n".
+     "        <a href=\"https://github.com/refugee-it/note_system/archive/master.zip\">note_system-master.zip</a>\n".
      "      </li>\n".
      "    </ul>\n".
      "  </div>\n".
@@ -78,6 +78,17 @@ echo "<div>\n".
      "    <ul>\n".
      "      <li>\n".
      "        Commit 2: <a href=\"https://github.com/refugee-it/schreibuebungsblaetter/releases/download/2016-10-03/schreibuebungsblaetter-2.zip\">schreibuebungsblaetter-2.zip</a> (".LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE." MB)\n".
+     "      </li>\n".
+     "    </ul>\n".
+     "  </div>\n".
+     "  <div>\n".
+     "    <h2>".LANG_HEADER_LANGSAM_GESPROCHENE_NACHRICHTEN."</h2>\n".
+     "    <p>\n".
+     "      ".sprintf(LANG_DESCRIPTION_LANGSAM_GESPROCHENE_NACHRICHTEN, "<a href=\"http://www.dw.com/de/deutsch-lernen/nachrichten/s-8030\">", "</a>", "<a href=\"http://www.dw.com\">", "</a>", "<code>", "</code>", "<code>", "</code>")."\n".
+     "    </p>\n".
+     "    <ul>\n".
+     "      <li>\n".
+     "        Commit 1: <a href=\"https://github.com/refugee-it/clients/releases/download/2016-04-19/clients-1.zip\">langsam_gesprochene_nachrichten_downloader_1</a> (md5sum <code>4ee712b84ea400fafecf1eea26bf9989</code>)\n".
      "      </li>\n".
      "    </ul>\n".
      "  </div>\n".

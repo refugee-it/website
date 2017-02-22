@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -24,6 +24,8 @@ define("LANG_TABLE_HEADER_NAME", "Name");
 define("LANG_TABLE_HEADER_DESCRIPTION", "Description");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME", "German Education System (simplified)");
 define("LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_DESCRIPTION", "Simplified description of the German education system, as most German pupils encounter it. Should help to get an impression regarding which route refugees might take.");
+define("LANG_TABLE_INTEGRATION_COURSE_NAME", "Information/Application Integration Course");
+define("LANG_TABLE_INTEGRATION_COURSE_DESCRIPTION", "Documents for Integration Course by Federal Agency of Migration and Refugees for refugees from Iran, Iraq, Syria, Eritrea and Somalia.");
 
 
 

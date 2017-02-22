@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -71,16 +71,19 @@ echo "<div>\n".
      "      <tr>\n".
      "        <th class=\"table_bordered\">".LANG_TABLE_HEADER_NAME."</th>\n".
      "        <th class=\"table_bordered\">de</th>\n".
-     "        <th class=\"table_bordered\">ar</th>\n".
      "        <th class=\"table_bordered\">en</th>\n".
      "        <th class=\"table_bordered\">".LANG_TABLE_HEADER_DESCRIPTION."</th>\n".
      "      </tr>\n".
      "      <tr>\n".
      "        <td class=\"table_bordered\">".LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_NAME."</td>\n".
      "        <td class=\"table_bordered\"><a href=\"./info/german_education_system_simplyfied_de.pdf\">pdf</a>, <a href=\"./info/german_education_system_simplyfied_de.dia\">dia</a></td>\n".
-     "        <td class=\"table_bordered\"></td>\n".
      "        <td class=\"table_bordered\"><a href=\"./info/german_education_system_simplyfied_en.pdf\">pdf</a>, <a href=\"./info/german_education_system_simplyfied_en.dia\">dia</a></td>\n".
      "        <td class=\"table_bordered\">".LANG_TABLE_MATERIAL_EDUCATION_SYSTEM_DESCRIPTION."</td>\n".
+     "      </tr>\n".
+     "      <tr>\n".
+     "        <td class=\"table_bordered\">".LANG_TABLE_INTEGRATION_COURSE_NAME."</td>\n".
+     "        <td class=\"table_bordered\" colspan=\"2\"><a href=\"course/index.php\">link</a></td>\n".
+     "        <td class=\"table_bordered\">".LANG_TABLE_INTEGRATION_COURSE_DESCRIPTION."</td>\n".
      "      </tr>\n".
      "    </table>\n".
      "  </div>\n".
