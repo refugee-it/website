@@ -25,6 +25,7 @@ define("LANG_DESCRIPTION_LANGSAM_GESPROCHENE_NACHRICHTEN", "Die „%sLangsam Ges
 define("LANG_HEADER_SCHREIBUEBUNGSBLAETTER", "Schreibübungsblätter");
 define("LANG_DESCRIPTION_SCHREIBUEBUNGSBLAETTER", "Schreibübungsblätter für das deutsche Alphabet.");
 define("LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE", "8,9");
+define("LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_3_SIZE", "22,2");
 define("LANG_HEADER_NOTESYSTEM", "Notizverwaltungssystem");
 define("LANG_DESCRIPTION_NOTESYSTEM", "Mit dem Online-Notizverwaltungssystem können Notizen zu Personen erfasst und Dokumente hinterlegt werden. Damit können Flüchtlingshelfer die Betreuung einer Unterkunft oder Daten zu Kursteilnehmern organisieren. Es gibt auch ein etwas älteres <a href=\"https://vimeo.com/201595517\">Demo-Video</a> über das System.");
 

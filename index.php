@@ -35,10 +35,11 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
      "    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n".
      "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"".getCurrentLanguage()."\" lang=\"".getCurrentLanguage()."\">\n".
      "    <head>\n".
+     "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
      "        <title>".LANG_PAGETITLE."</title>\n".
      "        <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"/>\n".
      "        <meta http-equiv=\"expires\" content=\"1296000\"/>\n".
-     "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
+     "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n".
      "    </head>\n".
      "    <body>\n";
 

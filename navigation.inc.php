@@ -58,7 +58,7 @@ function GetNavigation($basedir = ".")
             if (isset($_SESSION['subpage']) != true)
             {
                 $navigation .= "<div id=\"subnavigation1".$direction."\">\n".
-                               "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/computers/tickets_list.php\">".LANG_NAVIGATION_LOCAL_COMPUTERS."</a></div>\n".
+                               "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/computers/tickets_export.php\">".LANG_NAVIGATION_LOCAL_COMPUTERS."</a></div>\n".
                                "  <div class=\"topic".$direction."\"><a class=\"topiclink\" href=\"".$basedir."/local/74321_bietigheimbissingen/services.php\">".LANG_NAVIGATION_LOCAL_SERVICES."</a></div>\n".
                                "</div>\n";
             }

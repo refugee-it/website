@@ -35,10 +35,11 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
      "    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n".
      "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"".getCurrentLanguage()."\" lang=\"".getCurrentLanguage()."\">\n".
      "    <head>\n".
+     "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
      "        <title>".LANG_PAGETITLE."</title>\n".
      "        <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"/>\n".
      "        <meta http-equiv=\"expires\" content=\"1296000\"/>\n".
-     "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
+     "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n".
      "    </head>\n".
      "    <body>\n";
 
@@ -76,6 +77,9 @@ echo "<div>\n".
      "      ".LANG_DESCRIPTION_SCHREIBUEBUNGSBLAETTER."\n".
      "    </p>\n".
      "    <ul>\n".
+     "      <li>\n".
+     "        Commit 3: <a href=\"https://github.com/refugee-it/schreibuebungsblaetter/releases/download/2017-06-04/schreibuebungsblaetter-3.zip\">schreibuebungsblaetter-3.zip</a> (".LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_3_SIZE." MB)\n".
+     "      </li>\n".
      "      <li>\n".
      "        Commit 2: <a href=\"https://github.com/refugee-it/schreibuebungsblaetter/releases/download/2016-10-03/schreibuebungsblaetter-2.zip\">schreibuebungsblaetter-2.zip</a> (".LANG_SCHREIBUEBUNGSBLAETTER_COMMIT_2_SIZE." MB)\n".
      "      </li>\n".
