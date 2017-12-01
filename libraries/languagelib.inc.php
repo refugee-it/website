@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2013-2016 Stephan Kreutzer
+/* Copyright (C) 2013-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -185,6 +185,30 @@ function getCurrentLanguage()
     {
         return getDefaultLanguage();
     }
+}
+
+function setCurrentLanguage($language)
+{
+    if (empty($_SESSION) === true)
+    {
+        @session_start();
+    }
+
+    $languages = getLanguageList();
+
+    if (is_array($languages) === true)
+    {
+        if (count($languages) > 0)
+        {
+            if (array_key_exists($language, $languages) === true)
+            {
+                $_SESSION['language'] = $language;
+                return 0;
+            }
+        }
+    }
+
+    return -1;
 }
 
 function getCurrentLanguageObject()

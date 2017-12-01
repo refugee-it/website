@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2016 Stephan Kreutzer
+/* Copyright (C) 2016-2017 Stephan Kreutzer
  *
  * This file is part of refugee-it.de.
  *
@@ -39,6 +39,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
      "        <meta http-equiv=\"content-type\" content=\"application/xhtml+xml; charset=UTF-8\"/>\n".
      "        <title>".LANG_PAGETITLE."</title>\n".
      "        <link rel=\"stylesheet\" type=\"text/css\" href=\"mainstyle.css\"/>\n".
+     "        <link rel=\"manifest\" href=\"./requests.webmanifest.php?lang=".getCurrentLanguage()."\"/>\n".
      "        <meta http-equiv=\"expires\" content=\"1296000\"/>\n".
      "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n".
      "    </head>\n".
@@ -65,12 +66,12 @@ echo "<div>\n".
 if (CONFIG_WEBMASTER_EMAIL !== "somebody@exampe.org")
 {
     $pretext = "";
-    
+
     if (isset($_GET['pretext']) === true)
     {
         $pretext = htmlspecialchars($_GET['pretext'], ENT_COMPAT | ENT_HTML401, "UTF-8");
     }
-    
+
     echo "  <p>\n".
          "    ".LANG_DESCRIPTION."\n".
          "  </p>\n".
