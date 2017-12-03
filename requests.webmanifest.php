@@ -41,7 +41,7 @@ echo "{".
            "\"type\": \"image/png\"".
          "},".
          "{".
-           "\"src\": \"launcher-icon-1x.png\",".
+           "\"src\": \"launcher-icon-4x.png\",".
            "\"sizes\": \"192x192\",".
            "\"type\": \"image/png\"".
          "}".

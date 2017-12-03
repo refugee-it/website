@@ -97,6 +97,15 @@ function getLanguageFile($caller, $baseDirectory = ".")
         }
     }
 
+    if (isset($_SESSION['language']) !== true &&
+        isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) === true)
+    {
+        /** @todo Use William Durand's Negotiation
+          * (https://github.com/VoterFlow/voterflow/tree/master/web/api/libraries/Negotiation
+          * after update from https://github.com/willdurand/Negotiation) to determine
+          * a reasonable setting on the first encounter. */
+    }
+
     if (isset($_SESSION['language']) === true)
     {
         $language = $_SESSION['language'];
